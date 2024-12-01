@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* hero Section style */
 .hero {
   display: flex;
   background: rgba(229, 84, 115, 0.1);
-  width: 1920px;
+  width: 1903px;
   height: 850px;
   position: relative;
 }
@@ -54,6 +55,7 @@
   border: none;
   border-radius: 8px;
   background: rgb(229, 84, 115);
+  cursor: pointer;
 }
 .hero-image {
   position: relative;
@@ -66,4 +68,302 @@
   right: 240px;
   top: 50px;
   bottom: 4017px;
+}
+/* featured-flower style section */
+.featured-flower {
+  margin-top: 150px;
+}
+.featured-title .featured-text {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.featured-title p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 594px;
+  margin: 0 auto 48px auto;
+}
+.featured-card {
+  display: flex;
+  gap: 24px;
+  width: 1440px;
+  margin: auto;
+}
+.featured-image1 {
+  width: 464px;
+  height: 538px;
+
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-image1 img {
+  margin: 110px 78px 0 76px;
+}
+.featured-card p {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
+.featured-image2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.featured-image2 img {
+  margin: 117px 47px 51px 47px;
+}
+.featured-image3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-image3 img {
+  margin: 67px 75px 0px 75px;
+}
+/* support section style */
+.support-section {
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 128px auto 128px auto;
+}
+.support-content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.support-content p {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.img-text .img-text1 {
+  margin: 88px 0px 24px 145px;
+}
+.img-text .img-text2 {
+  margin: 88px 0px 24px 128px;
+}
+.img-text .img-text3 {
+  margin: 88px 0px 24px 65px;
+}
+/* hot-deal section style */
+.hot-deal {
+  width: 1903px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin: 0 auto 0 auto;
+}
+.hot-deal-container {
+  display: flex;
+  justify-content: center;
+  gap: 186px;
+}
+.hot-deal-container .hot-deal-content .deal-title {
+  font-family: Lato;
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 230px;
+  margin-bottom: 24px;
+}
+span {
+  color: rgb(229, 84, 115);
+}
+.hot-deal-content .sub-title {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 594px;
+}
+.hot-deal-content .btn-sign {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-style: none;
+  margin-left: 37%;
+  margin-top: 32px;
+  border-radius: 8px;
+  background-color: rgb(229, 84, 115);
+  padding: 20px 40px 20px 40px;
+  cursor: pointer;
+}
+.hot-deal-container .deal-img {
+  padding: 100px 0px 100px 20px;
+}
+/* instagram section style */
+.instagram {
+  margin-top: 128px;
+}
+.instagram-heading .insta-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.instagram-heading p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 594px;
+  margin: 24px auto 0 auto;
+}
+.instagram-card {
+  display: flex;
+  width: 1440px;
+  gap: 24px;
+  margin: 48px auto 128px auto;
+}
+/* Latest deals section style */
+.latest-deal {
+  width: 1440px;
+  height: 449px;
+  background-image: url(../Flower-Asset/Rectangle\ 9.png);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.latest-deal-heading .heading-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 122px;
+}
+.latest-deal-heading p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 16px;
+}
+.position {
+  display: flex;
+}
+input {
+  width: 700px;
+  height: 64px;
+  border-style: none;
+  margin: 48px 0px 0 280px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  padding-left: 23px;
+}
+button {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 150px;
+  height: 64px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  border-style: none;
+  margin-top: 48px;
+  margin-left: 24px;
+}
+/* Footer area style */
+.footer {
+  width: 1903px;
+  height: 449px;
+  background: rgb(17, 16, 16);
+  margin: 128px auto 5px auto;
+}
+.footer-title {
+  padding: 128px 650px 128px 650px;
+}
+.footer-title .shop-title {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-title .shop-sub {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
+.footer-title p {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+  .featured-card,
+  .instagram-card {
+    flex-direction: column;
+  }
 }
